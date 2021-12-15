@@ -1,8 +1,8 @@
 <script>
     import {createEventDispatcher} from 'svelte'
     const dispatch = createEventDispatcher()
-    const cloudName = "dkism94yf"
-    const unsignedUploadPreset = 'a6xnajdv';
+    const cloudName = ""
+    const unsignedUploadPreset = '';
     export let multiple = false
     let uploadedFiles = []
     function handleUpload(event){
